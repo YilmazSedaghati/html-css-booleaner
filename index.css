@@ -1,27 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #logo {
-    background-color: lightskyblue;}
+    background-color: lightskyblue;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 800;
 }
-.autore {color: grey;   
+
+.autore {
+    color: grey;
     font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;}
-.photo {line-height: 1;}
-p {font-weight: 500px;}
-.testa {background-color: lightblue;
-text-decoration: dotted;
-text-align: left;
-font-family: 'Courier New', Courier, monospace;}
-.corpo {background-color: lightskyblue;
-text-decoration: dotted;
-text-align: left;
-font-family: 'Courier New', Courier, monospace;}
-.corpo-chiaro {background-color: lightsteelblue ;
+    font-size: 15px;
+}
+
+.photo {
+    line-height: 1;
+    margin: 5px;
+}
+
+p {
+    font-weight: 500px;
+}
+
+.testa {
+    background-color: lightblue;
     text-decoration: dotted;
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;}
-h5 {background-color: darkblue; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.corpo {
+    background-color: lightskyblue;
+    text-decoration: dotted;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.corpo-chiaro {
+    background-color: lightsteelblue;
+    text-decoration: dotted;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.foot {
+    background-color: darkblue;
+}
+
+h5 {
+    background-color: darkblue;
     color: whitesmoke;
-text-align: center;}
+    text-align: center;
+}
